@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+body{
+    background: hsla(240, 100%, 50%, 0.371);
+    height: 100%;
+}
+main{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+header{
+    margin-top: 70px;
+    text-align: center;
+}
+header p{
+    margin: 25px 0;
+}
+.Attendee-details{
+    
+    height: 70vh;
+    width: 50%;
+    margin: 50px 0 0 45%;
+    padding-top: 25px;
+    text-align: center;
+}
+.Attendee-details .input{
+    max-width: 70%;
+    margin: 60px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+div input,select{
+    border: none;
+    outline: none;
+    padding: 2px;
+    border-radius: 5px;
+    background: hsla(350, 100%, 88%, 0.392);
+}
+
+/* button */
+.buttons{
+  width: 100%;
+}
+.buttons button{
+   width: 150px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* image */
+img{
+    position: absolute;
+    width: 25%;
+    height: auto;
+    top: 35%;
+    left: 150px;
+    border-radius: 50%;
+}
+section{
+    width: 40%;
+}
+
+
+/* pseudo classes or pseudo elements */
+.buttons button:hover{
+    background: hsla(240, 100%, 50%, 0.378);
+    color: white;
+}
+
+.Attendee-details input:hover,select:hover{
+   border: 2px solid red;
+   }
+   .Attendee-details div input::placeholder{
+    color: hsla(0, 0%, 0%, 0.59);
+   }
