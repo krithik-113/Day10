@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+body{
+    background-color: hsla(145, 35%, 49%, 0.186);
+}
+header{
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.754);
+ color: aliceblue; 
+ font-family: 'Times New Roman', Times, serif;  
+ font-style: italic;
+}
+section{
+    text-align: center;
+    outline: 5px solid rgba(0, 0, 0, 0.692);
+    width: 20%;
+    margin: 70px auto;
+    padding: 5px;
+    font-family: monospace;
+    font-style: italic;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.box{
+    position: relative;
+    border: 5px groove hsla(0, 65%, 28%, 0.493);
+    min-width: 20%;
+    height: 35vh;
+    
+}
+.image{
+    width: 35%;
+    margin-left: 0.5rem;
+    margin-top: 20%;
+    border: 5px solid hsla(215, 73%, 25%, 0.423);
+    border-radius: 5px;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
+article{
+    position: relative;
+    width: 60%;
+    height: auto;
+    left: 39%;
+    bottom: 60%;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-style: italic;
+}
+article p{
+    padding: 0.5rem 0;
+}
+.book button{
+     padding: 8px;
+     margin: 15px 0;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     background: hsla(240, 100%, 50%, 0.318);
+     font-style: italic;
+}
+.book button:hover,.book button:focus{
+    outline: 5px solid rgba(202, 33, 14, 0.686);
+}
