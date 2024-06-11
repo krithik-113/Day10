@@ -14,17 +14,16 @@ main{
     position: relative;
     width: 80%;
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
 }
 header{
-    margin-top: 70px;
+    margin-top: 10px;
     text-align: center;
 }
 header p{
     margin: 25px 0;
 }
 .Attendee-details{
-    
     height: 70vh;
     width: 50%;
     margin: 50px 0 0 45%;
@@ -33,7 +32,7 @@ header p{
 }
 .Attendee-details .input{
     max-width: 70%;
-    margin: 60px auto;
+    margin: 40px auto;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
@@ -52,7 +51,7 @@ div input,select{
 }
 .buttons button{
    width: 150px;
-    padding: 5px;
+    padding: 2px;
     margin-left: 20px;
     margin-right: 20px;
 }
